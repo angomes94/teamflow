@@ -11,6 +11,7 @@ export default function Tasks({loadingTasks, errorTasks, tasks}) {
     useEffect(() => {
             if(errorTasks){
                 toast.error(ERROR.GENERAL_ERROR);
+                console.log(errorTasks)
             }
     }, [])
     
