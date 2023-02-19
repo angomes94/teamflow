@@ -80,7 +80,7 @@ export default function ProjectAssign({ projectName, projectTasks, projectTeam})
                 className=' absolute cursor-pointer fa-solid fa-xmark text-white text-5xl m-10 right-0 top-0 duration-300 hover:scale-110 rounded-xl hover:text-cyan-400'></i>
             <div className='flex items-center flex-col'>
                 <h1 className="pt-20 font-extrabold text-4xl">{projectName}</h1>
-                <p className='text-sm font-extralight p-5'> Connect the tasks to the team members that you want to assign right now and leave the ones you aren't sure </p>
+                <p className='text-sm font-extralight p-5'> {`Connect the tasks to the team members that you want to assign right now and leave the ones you aren't sure`} </p>
                 <div className=' flex flex-row'>
                     <div className="flex-1">
                         <h1 className='text-center text-lg font-medium'>Team</h1>

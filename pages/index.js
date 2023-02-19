@@ -23,10 +23,10 @@ export default function Home() {
         <div className='flex p-5 mt-40 md:mt-10'>
             <div className='flex flex-col md:flex-row items-center'>
                 <p className=' text-sm font-light md:max-w-[600px] md:w-1/2 md:text-xl'>
-                    Unlock your team's full potential with our app. From project management to task
+                    {`Unlock your team's full potential with our app. From project management to task
                     delegation, our app has everything you need to manage your team effectively.
                     With a user-friendly interface and powerful collaboration tools, you'll be able
-                    to lead your team to success like never before.</p>
+                    to lead your team to success like never before.`}</p>
                 <img
                     src='/team_colab.svg'
                     alt='team colaboration'
