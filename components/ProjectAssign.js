@@ -64,7 +64,6 @@ export default function ProjectAssign({ projectName, projectTasks, projectTeam})
         await createProject(projectName, firestoreTasks)
         Router.push("/UserDashboard")
       } catch (error) {
-        console.log(error)
         toast.error("Something went wrong!")
       }finally {
         setLoading(false)

@@ -31,7 +31,7 @@ export default function Projects({ loadingProjects, errorProjects, projects}) {
         <div className=" flex-1 text-white bg-black overflow-auto">
         {!loadingProjects && projects.length === 0 && <h1 className=' text-lg text-center mt-20'> No projects yet</h1>}
         {loadingProjects && <div className=' flex justify-center pt-20'> <i className='text-5xl mt-2 fa-solid duration-300 fa-spinner text-white animate-spin'/> </div>}
-            <div className='grid grid-cols-1 gap-4 mx-10 mt-10 sm:grid-cols-2 md:grid-cols-4'>
+            <div className='grid grid-cols-1 gap-4 mx-10 mt-10 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6'>
                 {
                     Object.values(projects).map((project) => {
                         return(

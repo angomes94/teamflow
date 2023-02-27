@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico"/>
     </Head>
 <main>
-    <div className=' bg-slate-500 text w-full h-screen'>
+    <div className=' bg-slate-500 text w-full min-h-screen'>
         <div
             className='px-10 py-5 flex flex-row bg-slate-800 justify-between items-center'>
             <div className='flex flex-row items-center text-white'>
